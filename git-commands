@@ -1,3 +1,4 @@
+# Привязка папки к репозиторию
 cd lesson17/centon # путь к ВАШЕЙ папке
 git init
 git add .
@@ -5,3 +6,8 @@ git commit -m "init"
 git remote add origin https://github.com/Amankaium/centone.git
 git branch -M main
 git push -u origin main
+
+# Добавление изменений в репу
+git add .
+git commit -m "add file"
+git push
