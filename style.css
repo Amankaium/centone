@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 300px 70px 1fr;
+    height: 150vh;
+}
+
